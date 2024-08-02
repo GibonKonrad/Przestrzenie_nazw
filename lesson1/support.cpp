@@ -1,8 +1,7 @@
 #include<iostream>
+#include"pliczek.h"
 using namespace std;
 extern double warming;
-void update(double dt);
-void local();
 using std::cout;
 
 void update(double dt)

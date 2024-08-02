@@ -1,9 +1,8 @@
 #include<iostream>
+#include"pliczek.h"
 using namespace std;
 
 double warming=0.3;
-void update(double dt);
-void local();
 int main()
 {
     cout<<"Glogalne ocieplenie wynosi: "<<warming<<" stopni.\n";
